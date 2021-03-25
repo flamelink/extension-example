@@ -1,0 +1,37 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Report</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      height: 100%;
+      width: 100%;
+    }
+    body { display: flex; justify-content: center; align-items: center; text-align: center; }
+    table { padding: 0 }
+    td, th { padding: 5px; font-weight: normal; }
+    thead { background-color: #ff6633; color: #fff;}
+    tfoot { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <span>Loading...</span>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+<!-- Add SDKs for Firebase products that you want to use -->
+<script defer src="/__/firebase/8.3.1/firebase-auth.js"></script>
+<script defer src="/__/firebase/8.3.1/firebase-firestore.js"></script>
+
+<!-- Initialize Firebase -->
+<script defer src="/__/firebase/init.js"></script>
+
+<!-- Report App logic -->
+<script defer src="/sales-report.js"></script>
+</html>
